@@ -1,0 +1,156 @@
+@media (max-width: 374px) {
+    .wishlist-details1{
+        flex-wrap: wrap;
+    }
+    .wishlist-img{
+        width: 90px; height: 90px;
+    }
+    .wishlist-name{
+        width: 100%; font-size: 12px;
+    }
+    .wishlist-itemAddOn, .wishlist-original-price{
+        font-size: 10px; font-weight: bold!important;
+    }
+    .wishlist-size, .wishlist-seller, .wishlist-coupon{
+        font-size: 10px;
+    }
+    .wishlist-originalPrice{
+        font-size: 11px; flex-wrap: wrap;
+    }
+    .btn-remove{
+        font-size: 8px;
+    }
+}
+@media (max-width: 374px) and (min-width: 320px){
+    .wishlist-details1{
+        flex-wrap: wrap;
+    }
+    .wishlist-img{
+        width: 90px; height: 90px;
+    }
+    .wishlist-name{
+        width: 100%; font-size: 12px;
+    }
+    .wishlist-itemAddOn, .wishlist-original-price{
+        font-size: 10px; font-weight: bold!important;
+    }
+    .wishlist-size, .wishlist-seller, .wishlist-coupon{
+        font-size: 10px;
+    }
+    .wishlist-originalPrice{
+        font-size: 11px; flex-wrap: wrap;
+    }
+    .btn-remove{
+        font-size: 8px;
+    }
+}
+@media (max-width: 424px) and (min-width: 375px){
+    .wishlist-details1{
+        flex-wrap: wrap;
+    }
+    .wishlist-img{
+        width: 70px; height: 70px;
+    }
+    .wishlist-name{
+        width: 100%; font-size: 11px;
+    }
+    .wishlist-itemAddOn, .wishlist-original-price{
+        font-size: 11px; font-weight: bold!important;
+    }
+    .wishlist-size, .wishlist-seller, .wishlist-coupon{
+        font-size: 10px;
+    }
+    .wishlist-originalPrice{
+        font-size: 11px; 
+    }
+    .btn-remove{
+        font-size: 9px;
+    }
+}
+@media (max-width: 575px) and (min-width: 425px){
+    .wishlist-details1{
+        flex-wrap: wrap;
+    }
+    .wishlist-img{
+        width: 80px; height: 80px;
+    }
+    .wishlist-name{
+        width: 100%; font-size: 13px;
+    }
+    .wishlist-itemAddOn, .wishlist-original-price{
+        font-size: 12px; font-weight: bold!important;
+    }
+    .wishlist-size, .wishlist-seller, .wishlist-coupon{
+        font-size: 12px;
+    }
+    .wishlist-originalPrice{
+        font-size: 13px;
+    }
+    .btn-remove{
+        font-size: 11px;
+    }
+}
+@media (max-width: 767px) and (min-width: 576px){
+    .wishlist-img{
+        width: 100px; height: 100px;
+    }
+    .wishlist-name{
+        width: 65%; font-size: 13px;
+    }
+    .wishlist-itemAddOn, .wishlist-original-price{
+        font-size: 9px; font-weight: bold!important;
+    }
+    .wishlist-size, .wishlist-seller, .wishlist-coupon{
+        font-size: 11px;
+    }
+    .wishlist-coupon{
+        padding-top: 2px;
+    }
+    .wishlist-originalPrice{
+        font-size: 13px;
+    }
+    .btn-remove{
+        font-size: 10px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .wishlist-name{
+        width: 65%; font-size: 18px;
+    }
+    .wishlist-itemAddOn, .wishlist-original-price{
+        font-size: 13px;
+    }
+    .wishlist-size, .wishlist-seller, .wishlist-coupon{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px){
+    .price-details-container{
+        position: fixed;
+        top: 85px; 
+    }
+    .wishlist-name{
+        width: 65%; font-size: 14px;
+    }
+    .wishlist-itemAddOn, .wishlist-original-price{
+        font-size: 10px;
+    }
+    .wishlist-size, .wishlist-seller, .wishlist-coupon{
+        font-size: 14px;
+    }
+    .btn-remove{
+        font-size: 13px;
+    }
+}
+@media (min-width: 1200px){
+    .price-details-container{
+        position: fixed;
+        top: 85px; 
+    }
+    .wishlist-name{
+        width: 65%; font-size: 18px;
+    }
+    .wishlist-itemAddOn, .wishlist-original-price{
+        font-size: 13px;
+    }
+}

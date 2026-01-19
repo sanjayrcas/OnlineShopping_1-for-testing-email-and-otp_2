@@ -1,0 +1,15 @@
+# Frontend node_modules
+online-shopping-1/node_modules/
+
+# Backend node_modules
+server/node_modules/
+
+# Backend environment file
+server/.env
+
+# Logs
+*.Logs
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,61 @@
+.addAllProducts-input-Container {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.addProduct-main,
+.addBlogs-main,
+.addBrand-main,
+.offerProducts-main,
+.Team-main,
+.addAllProducts-main,
+.updateProduct-main,
+.blog-main {
+  background-color: #f0f1f5;
+  min-height: 100vh;
+}
+
+.addProduct-heading,
+.addBlogs-heading,
+.addBrand-heading,
+.offerProducts-heading,
+.Team-heading,
+.addAllProducts-heading,
+.updateProduct-heading,
+.blog-heading {
+  font-size: 20px;
+}
+
+.addAllProducts-table-container table,
+.blog-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.addAllProducts-table-container th,
+.addAllProducts-table-container td,
+.blog-table-container th,
+.blog-table-container td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn-update,
+.btn-delete {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.btn-update {
+  background-color: #4caf50;
+  color: white;
+}
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}

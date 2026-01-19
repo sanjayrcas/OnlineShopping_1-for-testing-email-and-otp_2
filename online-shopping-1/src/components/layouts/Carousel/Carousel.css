@@ -1,0 +1,15 @@
+.banner-img1, .banner-img2{
+    height: 400px;
+}
+
+/* MEDIA-Q */
+@media (max-width: 424px){
+    .banner-img1, .banner-img2{
+        height: 200px;
+    }
+}
+@media (max-width: 575px) and (min-width: 425px){
+    .banner-img1, .banner-img2{
+        height: 300px;
+    }
+}

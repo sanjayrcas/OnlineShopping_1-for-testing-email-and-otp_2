@@ -1,0 +1,20 @@
+.category-col-main:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.category-col-main:hover .category-col-container {
+    box-shadow: 0px 0px 5px 1px #b3b5b4;
+}
+.category-col-container {
+        border-radius: 7px;
+    /* box-shadow: 0px 0px 5px 1px #ccc; */
+}
+.category-img {
+    width: 100px;
+    height: 100px;
+}
+.category-name {
+    height: 45px;
+    font-size: 14px;
+}
+

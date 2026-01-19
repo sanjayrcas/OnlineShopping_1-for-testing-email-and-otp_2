@@ -1,0 +1,21 @@
+.wishlist-details-container1{
+    width: 100%;
+}
+.wishlist-img{
+    width: 130px; height: 130px;
+}
+.wishlist-name{
+    width: 70%; font-size: 18px;
+}
+.wishlist-itemAddOn, .wishlist-original-price{
+    font-size: 13px;
+}
+.wishlist-size, .wishlist-seller, .wishlist-coupon{
+    font-size: 15px;
+}
+.wishlist-quantity-count{
+    font-size: 13px; padding: 0px 15px;
+}
+.btn-remove, .btn-viewProduct{
+    font-size: 13px;
+}

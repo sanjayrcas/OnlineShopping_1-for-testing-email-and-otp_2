@@ -1,0 +1,84 @@
+@media (max-width: 374px) and (min-width: 320px){
+    .nav-logo-img{
+        height: 50px;
+    }
+    .navDropDown1-icon, .navDropDown2-icon, .navDropDown3-icon,
+    .navDropDown4-icon, .navDropDown5-icon{
+        font-size: 20px;
+    }
+    .sidebar-icon{
+        font-size: 20px;
+    }
+    .nav-dropdown1-ul {
+        position: absolute;
+        top: 15px !important;
+        right: 0px !important;
+        left: -100px!important; 
+    }
+    .nav-dropdown2-ul, .nav-dropdown3-ul{
+        position: absolute;
+        top: 15px!important;
+        left: 0px!important;
+    }
+    .nav-dropdown4-ul, 
+    .nav-dropdown5-ul{
+        position: absolute;
+        top: 15px!important;
+        right: -5px!important;
+    }
+}
+@media (max-width: 424px) and (min-width: 375px){
+    .nav-logo-img{
+        height: 50px;
+    }
+    .navDropDown1-icon, .navDropDown2-icon, .navDropDown3-icon,
+    .navDropDown4-icon, .navDropDown5-icon{
+        font-size: 20px;
+    }
+    .sidebar-icon{
+        font-size: 20px;
+    }
+    .nav-dropdown1-ul {
+        position: absolute;
+        top: 15px !important;
+        right: 0px !important;
+        left: -100px!important; 
+    }
+    .nav-dropdown2-ul, .nav-dropdown3-ul{
+        position: absolute;
+        top: 15px!important;
+        left: -30px!important;
+    }
+    .nav-dropdown4-ul, 
+    .nav-dropdown5-ul{
+        position: absolute;
+        top: 15px!important;
+        right: -5px!important;
+    }
+}
+@media (max-width: 575px) and (min-width: 425px){
+    .navDropDown1-icon, .navDropDown2-icon, .navDropDown3-icon,
+    .navDropDown4-icon, .navDropDown5-icon{
+        font-size: 25px;
+    }
+    .sidebar-icon{
+        font-size: 25px;
+    }
+    .nav-dropdown1-ul {
+        position: absolute;
+        top: 15px !important;
+        right: 0px !important;
+        left: auto !important; 
+    }
+    .nav-dropdown2-ul, .nav-dropdown3-ul{
+        position: absolute;
+        top: 15px!important;
+        left: -60px!important;
+    }
+    .nav-dropdown4-ul, 
+    .nav-dropdown5-ul{
+        position: absolute;
+        top: 15px!important;
+        right: -5px!important;
+    }
+}

@@ -1,0 +1,71 @@
+.product-col{
+    overflow: hidden;
+}
+.product-inside-container{
+    background-color: white;
+}
+.product-inside-container:hover{
+    box-shadow: 0px 0px 7px -3px black;  transition: 0.3s linear;
+}
+.product-title-container{
+    overflow: hidden;
+}
+.product-title{
+    /* background-color: red; */
+}
+.product-img-container{
+    display: flex; justify-content: center; align-items: center;
+    overflow: hidden!important;
+}
+.product-img{
+    width: 300px; height: 250px; 
+    padding: 20px 20px;
+}
+.product-col:hover .product-img{
+    transform: scale(1.1); transition: 0.3s linear;
+}
+.product-buyBtn-container{
+    transform: translateX(-200px); 
+    transition: 0.5s ease-in-out;
+}
+.product-col :hover .product-buyBtn-container{
+    transform: translateX(0);
+    transition: 0.5s ease-in-out;
+}
+.product-buyBtn{
+    font-size: 18px;
+}
+.product-wishlist-btn, .product-cart-btn{
+    transform: translateY(70px);
+    transition: 0.5s ease-in-out;
+}
+.product-col :hover .product-wishlist-btn,
+.product-col :hover .product-cart-btn{
+    transform: translateY(0);
+    transition: 0.5s ease-in-out;
+}
+.product-wishlist-icon, .product-cart-icon{
+    font-size: 25px;
+}
+.product-name{
+    font-size: 15px; font-weight: bold;
+}
+.product-category{
+    font-size: 13px;
+}
+.product-off-price{
+    font-size: 14px; font-weight: bold;
+}
+.product-original-price{
+    font-size: 12px;
+}
+.product-offPercentage{
+    color: #388e3c; font-size: 12px;
+}
+.product-description{
+    font-size: 14px;
+}
+.product-status{
+    font-size: 13px;
+}
+

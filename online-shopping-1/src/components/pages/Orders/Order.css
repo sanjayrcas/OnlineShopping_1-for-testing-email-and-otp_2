@@ -1,0 +1,16 @@
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #838383!important;
+}
+li{
+    list-style: none;
+}
+.breadCrumb-sticky{
+    position: sticky!important;
+    z-index: 1;
+    top: 65px!important;
+}
+.order-filter-container{
+    position: sticky!important;
+    z-index: 1px!important;
+    top: 120px!important;
+}

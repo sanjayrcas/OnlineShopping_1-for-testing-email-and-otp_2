@@ -1,0 +1,31 @@
+.nav-dropdown1-ul {
+    position: absolute;
+    top: 14px !important;
+    right: 0px !important;
+    left: auto !important; 
+}
+.nav-dropdown2-ul, .nav-dropdown4-ul, 
+.nav-dropdown3-ul, .nav-dropdown5-ul{
+    position: absolute;
+    top: 14px!important;
+    right: -5px!important;
+}
+.nav-dropdown2-ul, .nav-dropdown3-ul{
+    width: 320px;
+}
+.nav-dropdown4-ul, .nav-dropdown5-ul{
+    width: 200px;
+}
+.navDropDown1-icon, .navDropDown2-icon, .navDropDown3-icon,
+.navDropDown4-icon, .navDropDown5-icon{
+    font-size: 30px;
+}
+.nav-dropdownMsg-user, .nav-dropdownNotify-user{
+    font-size: 30px;
+}
+.nav-msg-date, .nav-Notify-date{
+    font-size: 12px; font-family: sans-serif;
+}
+.Product-img{
+    width: 60px; height: 60px;
+}

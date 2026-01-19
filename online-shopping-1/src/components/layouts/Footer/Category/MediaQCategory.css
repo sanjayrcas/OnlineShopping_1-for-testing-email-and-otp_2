@@ -1,0 +1,17 @@
+@media (max-width: 1199px) and (min-width: 992px){
+    .category-col-container{
+    }
+    .category-img{
+        width: 100px; height: 100px;
+    }
+    .category-name{
+        height: 30px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 1399px) and (min-width: 1200px){
+    .category-name{
+        height: 40px;
+        font-size: 13px;
+    }
+}

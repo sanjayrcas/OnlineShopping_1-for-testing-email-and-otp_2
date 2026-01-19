@@ -1,0 +1,107 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+.nav-logo{
+    /* background-color: rebeccapurple; */
+    height: 60px;
+}
+.nav-items1-list{
+    /* background-color: yellow;  */
+    margin: 0px 5px;
+    position: relative;
+}
+.nav-items1-list-link{
+    /* background-color: skyblue;  */
+    color: white; padding: 6px 15px; border: 1px solid transparent;  border-radius: 15px;
+    text-decoration: none; font-size: 11px; font-weight: bold;
+}
+.nav-items1-list-link:hover{
+    border-top-color: #f31db2; border-bottom-color: #fe912f; 
+    border-left-color: #f31db2; border-right-color: #fe912f; 
+    transition: 0.4s ease-in-out;
+}
+.nav-items1-list-span{
+    /* background-color: yellow;  */
+    color: red; font-size: 10px; position: absolute; 
+    top: -5px; right: -25px;
+}
+.nav-input-container{
+    /* background-color: red; */
+    display: flex; align-items: center; width: 25%;
+}    
+.nav1-input-container{
+    width: 100%;
+}
+.nav1-input-container .nav1-input-search-icon{
+    margin-top: 5px;
+}
+.nav-input-search-icon, .nav1-input-search-icon{
+    /* background-color: blue; */
+    position: absolute; z-index: 1; font-size: 20px;
+}     
+.nav-input-div, .nav1-input-div{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+}   
+.nav1-input-container .nav1-input{
+    border: 1px solid #7b7b7b;
+    border-radius: 15px;
+}
+.nav-input, .nav1-input{
+    /* background-color: skyblue; */
+    width: 100%; position: relative; outline: none;
+    border: 1px solid #7b7b7b; border-radius: 15px;
+    font-size: 13px; font-weight: bold; padding: 5px 0px 5px 40px;
+}  
+.nav-cart-wishlist-container{
+    /* background-color: red; */
+}
+.nav-wishlist-icon, .nav-cart-icon{
+    /* background-color: blueviolet; */
+    font-size: 20px;
+}
+/* nav1 profile */
+.nav-items-container .Nav-profile-icon{
+    width: 30px; height: 30px; cursor: pointer;
+}
+/* nav1 sideBar */
+.nav-1-sidebar-container{
+    width: 300px!important;
+}
+.nav-sidebar-logo{
+    width: 180px; height: 60px; margin-left: 30px;
+}
+.nav-1-sidebar-header{
+    background-color: #111827!important;
+}
+.nav1-sidebar-container{
+    /* background-color: #f31db2; */
+    color: #111827; font-family: sans-serif; font-size: 14px; font-weight: bold;
+}
+.nav1-sidebar-container:hover{
+    background-color: #e6e6e6;
+}
+.custom-hr {
+    background-color: black; 
+    height: 3px; 
+}
+.nav1-profile-dropdown .nav1-inside-userCircle{
+    /* background-color: green; */
+    width: 55px; margin: 0px 0px 0px 10px;
+}
+.nav1-profile-dropdown .nav1-profile-stack{
+    /* background-color: skyblue; */
+    width: 40px; margin: 0px 0px 0px 0px;
+}
+.nav1-profile-dropdown .nav1-dropdown-name-link{
+    /* background-color: red; */
+    font-size: 15px; font-weight: bold; margin:  0px 0px 0px 0px;
+    padding-left: 0px;
+}
+.nav1-profile-dropdown .nav1-span-number{
+    font-size: 12px; font-weight: bold;
+}
+.nav1-dropdown-link1{
+    font-size: 15px; font-family: sans-serif;
+}

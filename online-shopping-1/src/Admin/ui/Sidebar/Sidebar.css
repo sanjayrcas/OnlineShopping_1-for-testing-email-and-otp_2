@@ -1,0 +1,51 @@
+.sidebar-icon{
+    font-size: 30px;
+}
+.sidebar-offcanvas{
+    background-color: #37475a!important;
+    width: 250px!important;
+    position: absolute;
+    top: 60px!important;
+}
+.profile-user-name{
+    font-size: 20px;
+}
+.profile-admin{
+    font-size: 12px;
+}
+.sidebar-btn-close{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.sidebar-items-icon{
+    font-size: 25px
+}
+.sidebar-items-link{
+    font-size: 15px;
+}
+.accordion-item .accordion-button {
+    background-color: #37475a;
+    font-size: 16px; outline: none;
+}
+.admin-side-accordion-btn:not(.collapsed) {
+    color: inherit !important; 
+    background-color: #37475a!important;
+    box-shadow: none !important; 
+}
+.accordion-button::after {
+    filter: brightness(0) invert(1); 
+}
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  .accordion-button .collapsed {
+    border: none;
+    box-shadow: none;
+}
+.accordion-button {
+    border: none !important;
+}
+  

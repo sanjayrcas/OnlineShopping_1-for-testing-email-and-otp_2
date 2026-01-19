@@ -1,0 +1,25 @@
+.nav2-sticky{
+    position: sticky!important;
+    top: 60px!important;
+    z-index: 1!important;
+}
+.nav2-main{
+    background-color: #37475a;
+    border-bottom: 1px solid black;
+}
+.nav2list2{
+    color: white; padding: 6px 15px; border: 1px solid transparent;  border-radius: 15px;
+    text-decoration: none; font-size: 11px; font-weight: bold;
+}
+.nav2list2:hover{
+    border-top-color: #f31db2; border-bottom-color: #fe912f; 
+    border-left-color: #f31db2; border-right-color: #fe912f; 
+    transition: 0.4s ease-in-out;
+}
+.nav1-outside-userCircle .nav2-profile-icon{
+    width: 30px; height: 30px; cursor: pointer;
+}
+.nav2-wishlist-icon, .nav2-cart-icon{
+    /* background-color: blueviolet; */
+    font-size: 20px;
+}

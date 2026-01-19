@@ -1,0 +1,32 @@
+@media (max-width: 991px) and (min-width: 768px){
+    .product-inside-container{
+        /* background-color: blue!important; */
+    }
+    .product-buyBtn{
+        font-size: 16px;
+    }
+    .product-wishlist-icon, .product-cart-icon{
+        font-size: 23px;
+    }
+    .product-name{
+        font-size: 14px; font-weight: bold;
+    }
+    .product-category{
+        font-size: 12px;
+    }
+    .product-off-price{
+        font-size: 13px; font-weight: bold;
+    }
+    .product-original-price{
+        font-size: 11px;
+    }
+    .product-offPercentage{
+        font-size: 11px;
+    }
+    .product-description{
+        font-size: 13px;
+    }
+    .product-status{
+        font-size: 12px;
+    }
+}

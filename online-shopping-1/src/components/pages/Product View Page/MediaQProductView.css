@@ -1,0 +1,44 @@
+@media (max-width: 425px){
+    .productView-quan-cart-wish{
+        width: 100%;
+    }
+    .productView-quantity{   
+        width: 70px;
+    }
+    .productView-addToCart{
+        font-size: 12px!important;
+    }
+    .productView-key{ 
+        /* background-color: red; */
+        font-size: 14px; 
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px){
+    .Brand-name{
+        font-size: 15px;
+    }
+    .productView-off-price{
+        font-size: 15px;
+    }
+    .RatingUi{
+        font-size: 20px!important;
+    }
+    .productView-quan-cart-wish{
+        width: 300px;
+    }
+    .productView-quantity{   
+        width: 80px;
+    }
+    .productView-addToCart, .buyIt-now{
+        font-size: 14px!important;
+    }
+    .productView-wishlist, .productView-compare{
+        font-size: 30px!important;
+    }
+    .productView-key{
+        font-size: 14px;
+    }
+    .chatCenteredTextIcon{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,91 @@
+.login-main{
+    background-color: #111827;
+}
+.login-col1{
+    /* background-color: #37475a; */
+}
+.login-img{
+    height: 100vh;
+}
+.login-form-container{
+    /* background-color: red; */
+    height: 100vh;
+}
+.login-form{
+    /* background-color: blue; */
+    padding: 40px 40px 40px 40px; border: 1px solid #ccc; border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px #5d616c;
+}
+.login-text-container{
+    /* background-color: red; */
+}
+.login-welcome-para1{
+    font-size: 18px; font-weight: bold; 
+    /* margin: 0px 0px;  */
+}
+.login-welcome-para2{
+    font-size: 13px; font-weight: bold;
+}
+.login-heading-1{
+    color: #fe912f; font-size: 25px;
+}
+.login-heading-2{
+    color: #f31db2; font-size: 25px;
+}
+.login-email::before,
+.login-password::before{
+    content: "*"; color: red;
+    margin-right: 5px;
+}
+.login-input-email, .login-input-password{
+    /* background-color: red; */
+    width: 100%; padding: 5px 0px 5px 20px;  font-size: 12px;
+    border: 1px solid #ccc; border-radius: 5px;
+}
+.login-input-email:focus, 
+.login-input-password:focus{
+    background-color: #d9e0e7;
+}
+.login-input-email:valid, 
+.login-input-password:valid{
+    outline: 1px solid rgb(56, 243, 56);
+}
+/* .login-input-email:invalid, 
+.login-input-password:invalid{
+    outline: 1px solid red;
+} */
+.login-forgotPass-Link{
+    /* background-color: green; */
+    font-size: 10px; font-weight: bold;
+}
+.login-btn{
+    padding: 5px 70px; font-size: 15px; font-weight: bold;
+    border: 1px solid #ccc; border-radius: 3px;
+    background-color: #111827;
+}
+.login-btn:hover{
+    background-color: #364659;
+    border-top-color: #fe912f; border-bottom-color: #f31db2;
+    border-left-color: #fe912f; border-right-color: #f31db2;
+    transition: 0.3s ease;
+}
+.login-create-acc-para{
+    font-size: 13px; 
+}
+.login-create-acc-link{
+    font-size: 12px; font-weight: bold;
+}
+/* login accounts */
+.login-social-icons{
+    font-size: 30px;
+}
+.login-acc-para{
+    font-size: 13px; font-weight: bold;
+    border: 1px solid #ccc; border-radius: 3px; padding: 5px 20px;
+}
+.login-acc-para:hover{
+    background-color: #364659;
+    border-top-color: #fe912f; border-bottom-color: #f31db2;
+    border-left-color: #fe912f; border-right-color: #f31db2;
+    transition: 0.3s ease;
+}

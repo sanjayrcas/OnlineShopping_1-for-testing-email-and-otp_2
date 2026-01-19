@@ -1,0 +1,36 @@
+.profile-main{
+    /* background-color: red; */
+    height: 100%; min-height: 100vh;
+}
+.profile-heading{
+    font-size: 20px;
+}
+.profile-card, .profile-setting, 
+.payment-card, .notification-card, .authentication-card{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    transition: box-shadow 0.3s ease;
+}
+.profile-card:hover, .profile-setting:hover,
+.payment-card:hover, .notification-card:hover, 
+.authentication-card:hover{
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+.edit-profile{
+    font-size: 12px;
+}
+.admin-id, .admin-place{
+    font-size: 14px; color: gray;
+}
+.profile-img{
+    width: 120px!important;
+    height: 120px;
+}
+.profile-adminProfile{
+    font-size: 13px;
+}
+.profile-contact-details{
+    font-size: 14px;
+}
+.profile-contact-icons{
+    font-size: 16px;
+}

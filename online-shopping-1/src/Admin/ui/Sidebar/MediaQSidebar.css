@@ -1,0 +1,11 @@
+@media (max-width: 424px){
+    .sidebar-icon{
+        font-size: 20px;
+    }
+    .sidebar-offcanvas{
+        background-color: #37475a!important;
+        width: 250px!important;
+        position: absolute;
+        top: 50px!important;
+    }
+}

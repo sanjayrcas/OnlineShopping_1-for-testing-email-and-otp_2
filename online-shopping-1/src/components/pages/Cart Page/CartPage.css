@@ -1,0 +1,27 @@
+.cart-details-container1{
+    width: 100%;
+}
+.cart-img{
+    width: 130px; height: 130px;
+}
+.cart-name{
+    width: 70%; font-size: 18px;
+}
+.cart-deliveryBy, .cart-original-price{
+    font-size: 13px;
+}
+.cart-size, .cart-seller, .cart-coupon{
+    font-size: 15px;
+}
+.cart-quantity-count{
+    font-size: 13px; padding: 0px 15px;
+}
+.MinusCircle, .PlusCircle{
+    font-size: 25px;
+}
+.btn-remove{
+    font-size: 13px;
+}
+.hr-dashed{
+    border: 1px dashed;
+}
