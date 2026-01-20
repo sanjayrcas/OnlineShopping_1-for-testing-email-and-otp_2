@@ -27,15 +27,24 @@ exports.sendOtp = async (req, res) => {
         text: `Your OTP is ${otp}`
     };
 
-    transporter.sendMail(mailOptions, (error, info) => {
-        if (error) {
-            console.log(error);
-            res.status(500).json({ message: 'Error sending email' });
-        } else {
-            console.log('Email sent: ' + info.response);
-            res.status(200).json({ message: 'OTP sent successfully' });
-        }
-    });
+    // transporter.sendMail(mailOptions, (error, info) => {
+    //     if (error) {
+    //         console.log(error);
+    //         res.status(500).json({ message: 'Error sending email' });
+    //     } else {
+    //         console.log('Email sent: ' + info.response);
+    //         res.status(200).json({ message: 'OTP sent successfully' });
+    //     }
+    // });
+    try {
+        const info = await transporter.sendMail(mailOptions);
+        console.log('Email sent:', info.response);
+        res.status(200).json({ message: 'OTP sent successfully' });
+    } catch (error) {
+        console.error("Email sending failed:", error);
+        res.status(500).json({ message: 'Error sending email' });
+    }
+
 };
 
 exports.verifyOtp = (req, res) => {
