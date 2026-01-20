@@ -16,6 +16,8 @@ export default function Signup() {
     const [confirmPassword, setConfirmPassword] = useState("");
     const navigate = useNavigate();
     
+    const API_BASE_URL = process.env.REACT_APP_API_URL;
+
     const handleSignup = async (e) => {
     e.preventDefault();
 
@@ -25,8 +27,9 @@ export default function Signup() {
     }
 
     try {
-        await axios.post("http://localhost:5000/api/auth/signup", {
+        // await axios.post("http://localhost:5000/api/auth/signup", {
         // await axios.post("https://onlineshopping-1-for-testing-email-and.onrender.com/api/auth/signup", {
+        await axios.post(`${API_BASE_URL}/api/auth/signup`, {
         fName,
         lName,
         email,

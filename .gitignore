@@ -4,6 +4,9 @@ online-shopping-1/node_modules/
 # Backend node_modules
 server/node_modules/
 
+# frontend env file
+online-shopping-1/.env
+
 # Backend environment file
 server/.env
 

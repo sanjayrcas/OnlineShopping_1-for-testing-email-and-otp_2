@@ -33,10 +33,13 @@ export default function ShowAllProducts() {
         dispatch(addToWishlist(item));
     };
 
+    const API_BASE_URL = process.env.REACT_APP_API_URL;
+
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await fetch('http://localhost:5000/api/products/getAllProducts');
+                // const response = await fetch('http://localhost:5000/api/products/getAllProducts');
+                const response = await fetch(`${API_BASE_URL}/api/products/getAllProducts`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
