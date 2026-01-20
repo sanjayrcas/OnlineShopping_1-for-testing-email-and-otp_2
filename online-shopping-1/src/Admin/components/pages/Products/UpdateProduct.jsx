@@ -19,7 +19,7 @@ export default function UpdateProduct() {
         fetch(`${API_BASE_URL}/api/products/getProductById/${id}`)
         .then((res)=> res.json())
         .then((data)=> setUpdateProductData(data))
-    });
+    }, [API_BASE_URL, id]);
 
     const handleUpdate=(event)=>{
         event.preventDefault();

@@ -53,7 +53,7 @@ export default function Products() {
             }
         };
         fetchProducts();
-    }, []);
+    }, [API_BASE_URL]);
 
     const PRODUCTS_LIMIT = 12;
 

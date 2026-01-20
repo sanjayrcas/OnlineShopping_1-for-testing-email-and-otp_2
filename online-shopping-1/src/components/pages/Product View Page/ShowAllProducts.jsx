@@ -59,7 +59,7 @@ export default function ShowAllProducts() {
             }
         };
         fetchProducts();
-    }, []);
+    }, [API_BASE_URL]);
 
     const handleFilterChange = (e) => {
         const { name, value } = e.target;

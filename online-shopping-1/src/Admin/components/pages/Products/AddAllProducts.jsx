@@ -22,7 +22,7 @@ export default function AddAllProducts() {
             .then((data)=>{
                 setProductData(data)
             })
-        },[])
+        },[API_BASE_URL])
 
     // delete products by id.
     const handleDelete=(id)=>{
