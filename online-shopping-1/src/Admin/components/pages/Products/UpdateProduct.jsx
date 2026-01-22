@@ -19,7 +19,8 @@ export default function UpdateProduct() {
         fetch(`http://localhost:5000/api/products/getProductById/${id}`)
         .then((res)=> res.json())
         .then((data)=> setUpdateProductData(data))
-    }, [API_BASE_URL, id]);
+    }, []);
+    // }, [API_BASE_URL, id]);
 
     const handleUpdate=(event)=>{
         event.preventDefault();

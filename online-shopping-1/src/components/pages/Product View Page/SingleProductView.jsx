@@ -23,7 +23,7 @@ const SingleProductView = () => {
         fetch(`http://localhost:5000/api/products/getProductById/${id}`)
             .then((res) => res.json())
             .then((data) => setItem(data));
-    })
+    },[])
 
     return (
         <div className="productView-main">

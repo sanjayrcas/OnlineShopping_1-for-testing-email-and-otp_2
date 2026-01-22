@@ -11,11 +11,12 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // Middleware
-// app.use(cors({
-//       origin: 'http://localhost:3000'
-//     // origin: 'https://onlineshopping-1-mernstack-sanjay.netlify.app'
-// }));
-app.use(cors());
+app.use(cors({
+      origin: 'http://localhost:3000',
+      credentials: true
+    // origin: 'https://onlineshopping-1-mernstack-sanjay.netlify.app'
+}));
+// app.use(cors());
 
 
 app.use(express.json()); // allows us to parse incoming requests: req.body
