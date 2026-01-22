@@ -16,7 +16,7 @@ export default function Signup() {
     const [confirmPassword, setConfirmPassword] = useState("");
     const navigate = useNavigate();
     
-    const API_BASE_URL = process.env.REACT_APP_API_URL;
+    // const API_BASE_URL = process.env.REACT_APP_API_URL;
 
     const handleSignup = async (e) => {
     e.preventDefault();
@@ -27,9 +27,9 @@ export default function Signup() {
     }
 
     try {
-        // await axios.post("http://localhost:5000/api/auth/signup", {
         // await axios.post("https://onlineshopping-1-for-testing-email-and.onrender.com/api/auth/signup", {
-        await axios.post(`${API_BASE_URL}/api/auth/signup`, {
+        // await axios.post(`${API_BASE_URL}/api/auth/signup`, {
+        await axios.post("http://localhost:5000/api/auth/signup", {
         fName,
         lName,
         email,
@@ -51,9 +51,9 @@ export default function Signup() {
     const requestOtp = async (e) => {
         e.preventDefault();
         try {
-            // await axios.post("http://localhost:5000/api/otp/send-otp", { email });
             // await axios.post("https://onlineshopping-1-for-testing-email-and.onrender.com/api/otp/send-otp", { email });
-            await axios.post(`${API_BASE_URL}/api/otp/send-otp`, { email });
+            // await axios.post(`${API_BASE_URL}/api/otp/send-otp`, { email });
+            await axios.post("http://localhost:5000/api/otp/send-otp", { email });
             alert("OTP sent to your email");
             setOtpSent(true);
         } catch (err) {
@@ -64,9 +64,9 @@ export default function Signup() {
         const verifyOtp = async (e) => {
         e.preventDefault();
         try {
-            // await axios.post("http://localhost:5000/api/otp/verify-otp", { email, otp });
             // await axios.post("https://onlineshopping-1-for-testing-email-and.onrender.com/api/otp/verify-otp", { email, otp });
-            await axios.post(`${API_BASE_URL}/api/otp/verify-otp`, { email, otp });
+            // await axios.post(`${API_BASE_URL}/api/otp/verify-otp`, { email, otp });
+            await axios.post("http://localhost:5000/api/otp/verify-otp", { email, otp });
             alert("OTP verified successfully");
             setIsVerified(true);
         } catch (err) {

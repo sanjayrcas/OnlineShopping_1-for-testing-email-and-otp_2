@@ -12,12 +12,12 @@ export default function AddAllProducts() {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 5;
     
-    const API_BASE_URL = process.env.REACT_APP_API_URL;
+    // const API_BASE_URL = process.env.REACT_APP_API_URL;
 
     useEffect(()=>{
-        // fetch('http://localhost:5000/api/products/getAllProducts')
+        fetch('http://localhost:5000/api/products/getAllProducts')
         // fetch('https://onlineshopping-1-for-testing-email-and.onrender.com/api/products/getAllProducts')
-        fetch(`${API_BASE_URL}/api/products/getAllProducts`)
+        // fetch(`${API_BASE_URL}/api/products/getAllProducts`)
             .then((res)=> res.json())
             .then((data)=>{
                 setProductData(data)
@@ -26,9 +26,9 @@ export default function AddAllProducts() {
 
     // delete products by id.
     const handleDelete=(id)=>{
-        // fetch(`http://localhost:5000/api/products/deleteProduct/${id}`,{
+        fetch(`http://localhost:5000/api/products/deleteProduct/${id}`,{
         // fetch(`https://onlineshopping-1-for-testing-email-and.onrender.com/api/products/deleteProduct/${id}`,{
-        fetch(`${API_BASE_URL}/api/products/deleteProduct/${id}`,{
+        // fetch(`${API_BASE_URL}/api/products/deleteProduct/${id}`,{
             method: 'DELETE'
         })
         .then((res)=>res.json())
